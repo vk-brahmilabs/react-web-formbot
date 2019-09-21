@@ -1,7 +1,7 @@
 react-web-formbot 
 ===
 
-[View demo on Glitch](https://calm-cruiser.glitch.me)
+[View demo on Glitch](https://react-web-formbot.glitch.me)
 
 A simple web form chatbot that adds a bit of interaction to collect user information.
 
