@@ -1,0 +1,97 @@
+/* scss vars */
+
+$color-primary: #00cc84;
+$color-secondary: #ffffff;
+$color-background: #000000;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $color-background;
+  font-family: "Roboto", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-weight: 300;
+  color: $color-primary;
+}
+
+p {
+  color: $color-secondary;
+}
+
+$color_1: white;
+$background_color_1: #BA0802;
+$background_color_2: #820501;
+$background_color_3: #f2f2f2;
+
+headerstyle {
+  background: $background_color_1;
+  font-family: "Roboto", "Helvetica Neue", helvetica, arial, sans-serif;
+  padding: 10 10;
+  font-weight: bold;
+  color: $color-secondary;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 6px;
+	resize: vertical;
+}
+select {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 6px;
+	resize: vertical;
+}
+textarea {
+	width: 100%;
+  max-height: 50px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 4px;
+	margin-bottom: 6px;
+	resize: vertical;
+}
+title-1 {
+ color: $background_color_1;
+ font-weight: bold; 
+ margin-top: 4px; 
+ margin-bottom: 6px; 
+ resize: vertical; 
+}
+input[type=submit] {
+	background-color: $background_color_1;
+	color: $color_1;
+	padding: 5px 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background_color_2;
+	}
+}
+.container {
+	border-radius: 5px;
+	background-color: $background_color_3;
+	padding: 10px;
+}
+
+.btn:disabled { 
+  background-color: $color-secondary;
+  color: $background_color_1;
+}
